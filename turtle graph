@@ -1,0 +1,18 @@
+speed(0)
+pensize(1)
+
+for i in range(360):
+    for i in range(1):
+        forward(100)
+        right(30)
+        forward(20)
+        left(60)
+        forward(50)
+        right(30)
+        forward(30)
+        left(60)
+    penup()
+    setposition(0, 0)
+    pendown()
+    
+    right(1)
